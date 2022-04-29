@@ -4,8 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "devstart": "nodemon server.js"
   },
   "author": "",
   "license": "ISC",
@@ -20,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/thetryworks/Note-Taker/issues"
   },
-  "homepage": "https://github.com/thetryworks/Note-Taker#readme"
+  "homepage": "https://github.com/thetryworks/Note-Taker#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
